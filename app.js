@@ -5,7 +5,7 @@ const cors = require("cors")
 const app = express();
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const authMiddleware = require("./middleware/auth");
+//const authMiddleware = require("./middleware/auth");
 //Middleware
 app.use(cors())   // to avoid cors error  //cors means cross origin resource sharing
 app.use(express.json());
